@@ -1,194 +1,63 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>YouTube.com Clone</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Menu</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="menu">
+<main>
+<h1>The Tree Cafe</h1>
+<p class="established">Est. 2022</p>
+<hr>
+<section>
+<h2>Coffee</h2>
+<img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon">
+<article class="item">
+    <p class="flavor">French Vailla</p><p class="price">3.00</p>
+</article>
+<article class="item">
+    <p class="flavor">Caramel Macchiato</p><p class="price">3.00</p>
+</article>
+<article class="item">
+    <p class="flavor">Pumpkin Spice</p><p class="price">3.00</p>
+</article>
+<article class="item">
+    <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+  </article>
+  <article class="item">
+    <p class="flavor">Mocha</p><p class="price">4.50</p>
+  </article>
+</section>
+<section>
+    <h2>Desserts</h2>
+    <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+    <article class="item">
+      <p class="dessert">Donut</p><p class="price">1.50</p>
+    </article>
+    <article class="item">
+      <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+    </article>
+    <article class="item">
+      <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+    </article>
+    <article class="item">
+      <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+    </article>
+</main>
+<hr class="bottom-line">
+      <footer>
+        <p>
+          <a href="https://www.treecaferestaurant.com/" target="_blank">Visit our website</a>
+        </p>
+        <p class="address">Anjali</p>
+      </footer>
+    </div>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/video.css">
-    <link rel="stylesheet" href="styles/sidebar.css">
-  </head>
-  <body>
-    <header class="header">
-      <div class="left-section">
-        <img class="hamburger-menu" src="icons/hamburger.jpg">
-        <img class="youtube-logo" src="icons/youtube-logo.png">
-      </div>
-      <div class="middle-section">
-        <input class="search-bar" type="text" placeholder="Search">
-        <button class="search-button">
-          <img class="search-icon" src="icons/search.png">
-          <div class="tooltip">Search</div>
-        </button>
-        <!-- Put position absolute inside position relative -->
-        <button class="voice-search-button">
-          <img class="voice-search-icon" src="icons/voicesearh.png">
-          <div class="tooltip">Search with your voice</div>
-        </button>
-      </div>
-      <div class="right-section">
-        <div class="upload-icon-container">
-          <img class="upload-icon" src="icons/uplode.png">
-          <div class="tooltip">Create</div>
-        </div>
-        <img class="youtube-apps-icon" src="icons/app-menu.png">
-        <div class="notifications-icon-container">
-          <img class="notifications-icon" src="icons/notifications.png">
-          <div class="notifications-count">3</div>
-        </div>
-        <img class="current-user-picture" src="profile.jpg">
-      </div>
-    </header>
 
-    <nav class="sidebar">
-      <div class="sidebar-link">
-        <img src="icons/home.png">
-        <div>Home</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/explore-1781524-1513844.webp">
-        <div>Explore</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/suscribe.png"><div>Subscriptions</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/orignal.png">
-        <div>Originals</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/youtube-music.webp">
-        <div>YouTube Music</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/libary.png">
-        <div>Library</div>
-      </div>
-    </nav>
-
-    <main>
-      <section class="video-grid">
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail1.webp">
-            <div class="video-time">15:22</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channels/channel-picture.jpg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                5G Shares to Buy|Google Investment in JIO and Airtel|5G Stocks in India|GTL Infra Multibagger?</p>
-              <p class="video-author">
-                Stuck BUzzz
-              </p>
-              <p class="video-stats">
-                56 views 2 months ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail2.webp">
-            <div class="video-time">10:22</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channels/channel-picture1.jpg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Top EV Stocks|Best EV Stocks|Electric Vehicle Stocks
-              </p>
-              <p class="video-author">
-                Stuck Buzzz
-              </p>
-              <p class="video-stats">
-                89 views  2 months ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thamnail3.webp">
-            <div class="video-time">2:24</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channels/channel-picture2.jpg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                JIO Laptop|JIO Book|#JIObook Laptop#JIOlaptop|Jio Laptop Launched
-              </p>
-              <p class="video-author">
-                Stuck Buzzz
-              </p>
-              <p class="video-stats">
-                100 views 2 months ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thamnail4.webp">
-            <div class="video-time">6:59</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channels/channel-picture3.jpg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                TTML Latest News|TATA #iPhone|TATA will make #iPhone in India?|Wistron-TATA Talks|TATA Apple
-              </p>
-              <p class="video-author">
-               Stuck Buzzz
-              </p>
-              <p class="video-stats">
-                95 views 2 months ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thamnail5.webp">
-            <div class="video-time">5:00</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channels/channel-picture4.jpg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                3 Fundamentally Strong Penny Shares| Penny Stocks below Rs 5| Best Penny Stocks to Buy</p>
-              <p class="video-author">
-               Stuck Buzzz
-              </p>
-              <p class="video-stats">
-                60 views 2 months ago
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
+</body>
 </html>
-
-
-
-
